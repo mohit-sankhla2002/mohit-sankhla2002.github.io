@@ -13,14 +13,14 @@ baseurl: ""
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Asia/Kolkata
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Mohit Sankhla # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: MERN Stack Developer # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -77,10 +77,10 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: https://media.licdn.com/dms/image/D4D03AQHfqx79inMjNA/profile-displayphoto-shrink_800_800/0/1685526460809?e=1693440000&v=beta&t=_KUhXW8cxw-73Zee1daotvWc0VYi7RR8TQgZ6y9PBqw
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://media.licdn.com/dms/image/D4D03AQHfqx79inMjNA/profile-displayphoto-shrink_800_800/0/1685526460809?e=1693440000&v=beta&t=_KUhXW8cxw-73Zee1daotvWc0VYi7RR8TQgZ6y9PBqw
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -111,7 +111,7 @@ assets:
     enabled: # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
-    env: # [development|production]
+    env: production # [development|production]
 
 pwa:
   enabled: true # the option for PWA feature
